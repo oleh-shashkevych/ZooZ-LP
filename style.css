@@ -1,0 +1,261 @@
+@media (min-width: 1200px) {
+    .zooz-lp .container {
+        max-width: 1280px;
+    }
+}
+
+/* Hero */
+.lp-hero {
+    padding: 78px 0 48px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.lp-hero__logo {
+    display: block;
+    width: 165px;
+    height: auto;
+    margin-bottom: 138px;
+}
+
+.lp-hero__logo img {
+    width: 100%;
+    height: auto;
+}
+
+.lp-hero__content {
+    width: 48%;
+    max-width: 680px;
+}
+
+.lp-hero__subtitle {
+    font-size: 24px;
+    font-weight: 700;
+    color: #1AFFD3;
+}
+
+.lp-hero__heading {
+    font-family: 'Inter', sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.lp-hero__heading span {
+    font-family: 'Gilroy', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    color: #fff;
+}
+
+@media (max-width: 992px) {
+    .lp-hero {
+        padding: 48px 0;
+    }
+
+    .lp-hero__content {
+        width: 100%;
+        max-width: unset;
+    }
+
+    .lp-hero__logo {
+        margin-bottom: 74px;
+    }
+}
+
+/* Content */
+.lp-content {
+    margin: 40px 0;
+}
+
+.lp-content__title {
+    color: #111;
+    font-size: 24px;
+    font-weight: 700;
+    width: 48%;
+    max-width: 494px;
+    margin-bottom: 10px;
+}
+
+.lp-content__text {
+    width: 48%;
+    max-width: 584px;
+}
+
+@media (max-width: 992px) {
+    .lp-content__title,
+    .lp-content__text {
+        width: 100%;
+        max-width: unset;
+    }
+}
+
+/* Image */
+.lp-image {
+    margin: 140px 0 40px;
+}
+
+.lp-image__image {
+    width: 100%;
+    max-width: 1026px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.lp-image__image img {
+    width: 100%;
+    height: auto;
+}
+
+.lp-image__desktop {
+    display: block;
+}
+
+.lp-image__mobile {
+    display: none;
+}
+
+@media (max-width: 992px) {
+    .lp-image {
+        margin: 40px 0;
+    }
+
+    .lp-image__image {
+        max-width: 300px;
+    }
+
+    .lp-image__desktop {
+        display: none;
+    }
+
+    .lp-image__mobile {
+        display: block;
+    }
+}
+
+/* Contact */
+.lp-contact {
+    position: absolute;
+    top: 300px;
+    right: 0;
+    width: 100%;
+}
+
+@media (max-width: 992px) {
+    .lp-contact {
+        position: unset;
+        top: unset;
+        right: unset;
+        margin-bottom: 80px;
+    }
+}
+
+/* Form */
+.lp-form {
+    padding: 40px 50px 70px;
+    background-color: #1AFFD3;
+    width: 50%;
+    max-width: 620px;
+    margin-left: auto;
+}
+
+.lp-form__title {
+    color: #111;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.lp-form__inner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.lp-form input,
+.lp-form select {
+    margin: 0;
+    padding: 16px;
+    border: none;
+    border-radius: 0;
+    outline: 0;
+    background-color: rgba(255,255,255,.5);
+    color: #111;
+    font-weight: 500;
+    width: 100%;
+}
+
+.lp-form input::placeholder {
+    font-weight: 500;
+    color: #111;
+    opacity: .5;
+}
+
+.lp-form select {
+    cursor: pointer;
+    appearance: none;
+    background-image: url('img/mingcute_down-line.svg');
+    background-position: right 16px center;
+    background-size: 24px auto;
+    background-repeat: no-repeat;
+}
+
+.lp-form__checkbox {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.lp-form__checkbox label {
+    color: #111;
+}
+
+.lp-form__checkbox input {
+    width: 16px;
+    height: 16px;
+}
+
+.lp-form button {
+    margin-top: 30px;
+    min-width: 114px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    background-color: #290068;
+    border: none;
+    border-radius: 0;
+    padding: 16px;
+}
+
+@media (max-width: 992px) {
+    .lp-form {
+        width: 100%;
+        max-width: unset;
+        margin-left: unset;
+    }
+}
+
+@media (max-width: 576px) {
+    .lp-form__inner {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Footer */
+.lp-footer {
+    padding: 40px 0 30px;
+    background-color: #290068;
+}
+
+.lp-footer__logo {
+    display: block;
+    width: 165px;
+    height: auto;
+}
+
+.lp-footer__logo img {
+    width: 100%;
+    height: auto;
+}
